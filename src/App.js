@@ -7,6 +7,7 @@ import Card from "./components/Card/Card";
 import Pagination from "./components/Pagination/Pagination";
 import Filter from "./components/Filter/Filter";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Episodes from "./Pages/Episodes";
@@ -76,6 +77,7 @@ const Home = () => {
         pageNumber={pageNumber}
         updatePageNumber={updatePageNumber}
       />
+      <Footer />
     </div>
   );
 };
